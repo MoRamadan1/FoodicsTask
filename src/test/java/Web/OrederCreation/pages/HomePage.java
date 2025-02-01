@@ -162,7 +162,7 @@ public class HomePage extends utilites {
         selectCity("Cai");
         selectDistrict("Maa");
         clickElement(addressDetailsResRadioInput);
-//        clickElement(bottomContinueButton);
+        clickElement(bottomContinueButton);
     }
 
     /******************************** Helper Methods ******************************************/

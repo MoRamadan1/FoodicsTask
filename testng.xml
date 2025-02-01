@@ -1,0 +1,16 @@
+
+<suite name="API Test Suite">
+    <test name="User API Tests">
+        <classes>
+            <!-- APIs Testcases -->
+            <class name="APIs.tests.CreateUserTest"/>
+            <class name="APIs.tests.RetrieveUserTest"/>
+            <class name="APIs.tests.UpdateUserTest"/>
+
+            <!-- Web Testcase -->
+            <class name="Web.OrederCreation.tests.OrderPurchasing"/>
+
+
+        </classes>
+    </test>
+</suite>
